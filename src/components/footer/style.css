@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/super-mario-256');
+
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logof {
+    width: auto;
+    height: 50%;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+span {
+    color: #fff;
+    font-family: 'Super Mario 256', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;   
+}
+

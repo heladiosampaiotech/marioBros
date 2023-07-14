@@ -1,0 +1,135 @@
+
+.banner-form{
+    background-image: url('../../assets/banner.webp');
+    background-position: 50% 50%;
+    background-size: cover ;
+    width: 100%;
+    height: 700px;
+    
+   
+}
+
+.container-form {
+    
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    background-color: transparent;
+    
+   
+}
+
+.content-form {
+   
+    font-family: 'Super Mario 256', sans-serif;   
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 20px;
+    background: transparent;
+    
+
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: transparent;
+
+   
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    background-color: transparent;
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #374a58e5;
+    border-radius: 4px;
+  }
+
+  #mensagem {
+    height: 200px;
+  }
+
+  input[type="submit"] {
+    background-color: #09053efb;
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    font-family: 'Super Mario 256', sans-serif;   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #1255c9e2;
+    
+  }
+
+  @media(max-width:550px) {
+    .banner-form{
+        margin-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+    }
+    .container-form {
+      width: 60%;
+    }
+    .content-form {
+      width: 40%;
+      display: flex;
+      margin-right: 210px;
+      margin-top: 0px;
+    }
+    form {
+      width: 300%;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+        margin-left: 150px;
+    }
+
+    #mensagem {
+        height: 100px;
+    }
+    input[type="submit"] {
+      
+      margin-left: 90px;
+    }
+
+  
+  }
