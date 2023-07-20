@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function Footer () {
     return(
         <footer>
-            <Link to={'/marioBros'}>
+            
             <img id="logof" src={Logo}/>
-            </Link>
+            
             <span>All rights reserved ©</span>
             <span>Developed by: Heladio Sampaio</span>
         </footer>
