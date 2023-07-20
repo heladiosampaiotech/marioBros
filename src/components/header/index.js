@@ -7,9 +7,9 @@ function Header (){
 
     return(
         <header>
-            <Link style={{textDecoration: 'none'}} to={'/marioBros'}>
-                <img id="logo" src={Logo}/>
-            </Link>
+            
+            <img id="logo" src={Logo}/>
+            
             <nav>
                 <ul>
                     <Link style={{textDecoration: 'none'}} to='/mario/Bros'>
