@@ -7,7 +7,9 @@ function Footer () {
     return(
         <footer>
             
-            <img id="logof" src={Logo}/>
+            <Link to={'/marioBros'}>
+                <img id="logof" src={Logo}/>
+            </Link>
             
             <span>All rights reserved ©</span>
             <span>Developed by: Heladio Sampaio</span>
