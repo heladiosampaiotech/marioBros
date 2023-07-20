@@ -7,7 +7,7 @@ function Header (){
 
     return(
         <header>
-            <Link to={'/marioBros'}>
+            <Link style={{textDecoration: 'none'}} to={'/marioBros'}>
                 <img id="logo" src={Logo}/>
             </Link>
             <nav>
