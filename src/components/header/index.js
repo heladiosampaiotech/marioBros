@@ -8,7 +8,9 @@ function Header (){
     return(
         <header>
             
-            <img id="logo" src={Logo}/>
+            <Link to={'/marioBros'}>
+                <img id="logo" src={Logo}/>
+            </Link>
             
             <nav>
                 <ul>
