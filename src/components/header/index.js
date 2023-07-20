@@ -7,7 +7,7 @@ function Header (){
 
     return(
         <header>
-            <Link to={'/'}>
+            <Link to={'/marioBros'}>
                 <img id="logo" src={Logo}/>
             </Link>
             <nav>
