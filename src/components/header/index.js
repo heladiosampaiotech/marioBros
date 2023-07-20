@@ -12,7 +12,7 @@ function Header (){
             </Link>
             <nav>
                 <ul>
-                    <Link style={{textDecoration: 'none'}} to='/'>
+                    <Link style={{textDecoration: 'none'}} to='/mario/Bros'>
                         <li className="item-1">Home</li>
                     </Link>
                     <Link style={{textDecoration: 'none'}} to='/contatos'>
