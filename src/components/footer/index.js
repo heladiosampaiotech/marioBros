@@ -8,7 +8,7 @@ function Footer () {
         <footer>
             
             <Link to={'/marioBros'}>
-                <img id="logof" src={Logo}/>
+                <img id="logof" src={Logo} alt="imagem-logo"/>
             </Link>
             
             <span>All rights reserved ©</span>
