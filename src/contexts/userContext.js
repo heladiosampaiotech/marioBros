@@ -4,7 +4,6 @@ export const UserContext = createContext()
 
 export const UserStore = ({ children }) => {
     const [login, setLogin] = useState(false)
-    const [data, setData] = useState({})
     useEffect(() => {
         setData({name: 'Heladio', age: 35})
     },[])
