@@ -9,7 +9,7 @@ function Header (){
         <header>
             
             <Link to={'/marioBros'}>
-                <img id="logo" src={Logo}/>
+                <img id="logo" src={Logo} alt="imagem-logo"/>
             </Link>
             
             <nav>
