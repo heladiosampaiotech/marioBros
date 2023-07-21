@@ -1,6 +1,5 @@
 import React from "react";
 import './style.css';
-import Banner from '../../assets/banner.webp'
 
 function Coment() {
     return (
